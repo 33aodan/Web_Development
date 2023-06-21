@@ -1,4 +1,6 @@
 # web development notes
+<img src="https://img.freepik.com/free-icon/html-5_318-674282.jpg" width=200>
+
 ## HTML
 * Strong/Bold tag: Makes text bolded.
 * Emphasize/Italicize tag: Makes text italicized.
@@ -15,13 +17,14 @@
 *Ordered list tag: Creates an ordered list.
 * Unordered list tag: Creates an unordered list.
 
+<img src="https://img.freepik.com/free-icon/css_318-698167.jpg" width=200>
+
 ## CSS
 * Classes: Assigns a class to elements. Classes can be applied to multiple elements.
 * IDs: Assigns an ID to an element. IDs can only be used for a single element.
 * Targeting classes and IDs: Use . for classes and # for IDs when selecting elements in CSS.
 * Padding: Specifies the space between the element and its border.
 * Margin: Specifies the space between the border and the surrounding elements.
-### Properties
 * font-size: changes the font size by any number with px at the end of it.
 * font-weight: bolds the text by any number with px.
 * color: changes color within an element.
