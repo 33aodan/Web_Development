@@ -26,4 +26,5 @@
 * font-weight: bolds the text by any number with px.
 * color: changes color within an element.
 * background-color: changes background color of an element.
-* 
+* text-decoration:none :removes any styling/underline of an anchor tag or anything else.
+
