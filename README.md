@@ -1,23 +1,29 @@
 # web development notes
 ## HTML
-* Strong/Bold tag - make text bolded. (strong /strong)
-* Emphasize/Italicize tag - make text italicized. (em /em)
-* Div tag - used for putting elements in a box. (div /div)
-* Head tag - the head of the page. (head /head)
-* Body tag - the body of the page. (body /body)
-* Heading tag - makes a heading. (h1, h2, h3, h4, h5, h6)
-* Doctype HTML - shows that the current document is HTML. (!DOCTYPE html)
-* Button tag - makes a button. (button /button)
-* Anchor tag - makes a hyperlink. (a href="examplelink.com">example text /a)
-* Anchor tag (target blank) - opens a hyperlink in another tab when clicked. (a href="examplelink.com" target="_blank">example text /a)
-* Paragraph tag - makes a paragraph. (p /p)
-* Image tag - displays an image. (img)
-* Ordered list tag - makes an ordered list. It can be ordered in (ol /ol)
-* Unordered list tag - makes an unordered list.(ul /ul)
+* Strong/Bold tag: Makes text bolded.
+* Emphasize/Italicize tag: Makes text italicized.
+* Div tag: Used for grouping elements in a box.
+* Head tag: Represents the head section of the HTML document.
+* Body tag: Represents the body section of the HTML document.
+* Heading tags: Used for creating headings.
+* Doctype HTML: Specifies that the current document is an HTML document.
+* Button tag: Creates a button.
+* Anchor tag: Creates a hyperlink.
+* Anchor tag (target blank): Opens a hyperlink in a new tab when clicked.
+* Paragraph tag: Defines a paragraph.
+* Image tag: Displays an image.
+*Ordered list tag: Creates an ordered list.
+* Unordered list tag: Creates an unordered list.
 
 ## CSS
-* Classes - gives elements a class. Classes can be applied to multiple elements. (class="example")
-* IDs - gives an element an ID. IDs can only be used for one element.
-* Targeting classes, ids. Use "." for classes and "#" for IDs
-* Padding - space between the element and border.
-* Margin - space between the border and outside.
+* Classes: Assigns a class to elements. Classes can be applied to multiple elements.
+* IDs: Assigns an ID to an element. IDs can only be used for a single element.
+* Targeting classes and IDs: Use . for classes and # for IDs when selecting elements in CSS.
+* Padding: Specifies the space between the element and its border.
+* Margin: Specifies the space between the border and the surrounding elements.
+### Properties
+* font-size: changes the font size by any number with px at the end of it.
+* font-weight: bolds the text by any number with px.
+* color: changes color within an element.
+* background-color: changes background color of an element.
+* 
