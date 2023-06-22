@@ -14,7 +14,7 @@
 * Anchor tag (target blank): Opens a hyperlink in a new tab when clicked.
 * Paragraph tag: Defines a paragraph.
 * Image tag: Displays an image.
-*Ordered list tag: Creates an ordered list.
+* Ordered list tag: Creates an ordered list.
 * Unordered list tag: Creates an unordered list.
 
 <img src="https://img.freepik.com/free-icon/css_318-698167.jpg" width=200>
