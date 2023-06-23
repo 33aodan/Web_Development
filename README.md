@@ -38,3 +38,8 @@
 * git commit -n"(link)"(green)
 * git push(white)
 * git pull(yellow)
+
+## shortcut keys
+* ctrl /: comments
+* alt arrow keys: moves code up and down
+* hold alt and click: make multiple cursor positions
