@@ -32,7 +32,7 @@
 * text-decoration:none :removes any styling/underline of an anchor tag or anything else.
 * list-style-type: changes the bullet points into something else.
 
-##git and git bash
+## git and git bash
 * git status
 * git add .(red)
 * git commit -n"(link)"(green)
