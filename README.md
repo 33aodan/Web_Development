@@ -35,7 +35,7 @@
 ## git and git bash
 * git status
 * git add .(red)
-* git commit -n"(link)"(green)
+* git commit -m"(link)"(green)
 * git push(white)
 * git pull(yellow)
 
