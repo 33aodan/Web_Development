@@ -43,3 +43,5 @@
 * ctrl /: comments
 * alt arrow keys: moves code up and down
 * hold alt and click: make multiple cursor positions
+* up/down arrow keys: in git bash you can reuse commands
+* tab: in git bash it will auto complete (folder names and etc)
