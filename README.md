@@ -45,3 +45,8 @@
 * hold alt and click: make multiple cursor positions
 * up/down arrow keys: in git bash you can reuse commands
 * tab: in git bash it will auto complete (folder names and etc)
+
+## display types
+* inline can use padding and margin but cant use width and height. It only uses content space.
+* block can use padding, margin, width and height. it uses whole line
+* inline-block uses padding, margin, width, and height, and it only uses content space.
