@@ -45,6 +45,7 @@
 * hold alt and click: make multiple cursor positions
 * up/down arrow keys: in git bash you can reuse commands
 * tab: in git bash it will auto complete (folder names and etc)
+* control + enter allows you to go to the next line without disrupting the order of things.
 
 ## display types
 * inline can use padding and margin but cant use width and height. It only uses content space.
