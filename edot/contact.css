@@ -9,15 +9,10 @@ body {
     color: #ff0000;
 }
 .blackFont{
-    color: #000000;
+    color: #ffffff;
 }
 .center{
     text-align: center;
-}
-div {
-    display: block;
-    text-align: center;
-    font-size: 20px;
 }
 #headerBox{
     height: 20;
@@ -25,6 +20,8 @@ div {
     background-color: #ff0000;
     margin:0px;
     padding: 10px;
+    text-align: center;
+    font-size: 20px;
 }
 .headerColor{
     color: #000000;
@@ -49,18 +46,24 @@ div {
 }
 .submitButton{
 font-size: 20px;
+background-image: ('https://media.tenor.com/CnDT-sPeTkkAAAAM/epilepsy-god.gif');
 }
 .formBox{
-    height: 500px;
+     height: 300px;
     width:500px;
-    background-color: #ffffff;
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnY0bnpibWUxNWI5c2JyaXo1ZWwweHNwbnlqZGUydDk2bjM0dTE1YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7XqRXKYV9odtm/source.gif'); 
     padding:20px;
     margin-left: auto;
     margin-right:auto; 
     text-align: center;
     
 }
+.form2{
+    text-align: center;
+    font-size: 20px;
+}
 input{
-    display: block;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
 }
