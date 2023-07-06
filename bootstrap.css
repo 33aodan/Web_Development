@@ -1,3 +1,30 @@
 .coup{
     margin-left: 5px;
 }
+.signin{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.signButton{
+    text-align: center;
+    display:inline-block;
+    padding-top: 10px;
+}
+.signAlignment{
+    margin-left: 125px;
+}
+.backgroundShop{
+    background-image: url('https://4kwallpapers.com/images/wallpapers/texture-dark-background-purple-1920x1080-3086.jpg');
+}
+.shop{
+    margin: 10px;
+}
+body{
+    background-color: darkgray;
+}
