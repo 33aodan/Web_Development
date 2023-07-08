@@ -66,4 +66,51 @@ a.quadDesc2:hover{
     margin-left: 1250px;
     margin-top: -330px;
 }
-  
+.navColor{
+    padding: 0px;
+    background-color: #28313f;
+}
+.weirdSym{
+    margin:0px;
+    padding: 0px;
+    font-size: 50px;
+}
+.navText{
+    font-size: 14px;
+    font-weight: 450;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navText3{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navText2{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+a.navText:hover{
+border-style: solid;
+border-color: white;
+}
+p.navText2:hover{
+    border-style: solid;
+    border-color: white;
+}
+a.navText3:hover{
+    border-style: solid;
+    border-color: white;
+}
