@@ -31,6 +31,7 @@
 * background-color: changes background color of an element.
 * text-decoration:none :removes any styling/underline of an anchor tag or anything else.
 * list-style-type: changes the bullet points into something else.
+* how to put content in the middle, do marign left auto and margin right auto. Also give it a width
 
 ## git and git bash
 * git status
