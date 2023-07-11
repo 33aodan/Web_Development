@@ -51,3 +51,7 @@
 * inline can use padding and margin but cant use width and height. It only uses content space.
 * block can use padding, margin, width and height. it uses whole line
 * inline-block uses padding, margin, width, and height, and it only uses content space.
+
+## bootstrap 5
+* easy for front end developing
+* customizable components in css
