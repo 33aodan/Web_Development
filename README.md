@@ -56,3 +56,6 @@
 ## bootstrap 5
 * easy for front end developing
 * customizable components in css
+* bg: background
+* d:display
+* w:width
