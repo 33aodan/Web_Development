@@ -33,7 +33,7 @@ color: #C7511F;
     margin: 10px;
 }
 body{
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
 }
 .quadImageCard{
     font-weight: bold;

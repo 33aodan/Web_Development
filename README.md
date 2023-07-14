@@ -59,3 +59,8 @@
 * bg: background
 * d:display
 * w:width
+
+## JS NAMING CONVENTIONS
+* Uppercase/lowercase
+* numbers cant be first
+* _, $ can be used anywhere
