@@ -64,3 +64,14 @@
 * Uppercase/lowercase
 * numbers cant be first
 * _, $ can be used anywhere
+
+## JS
+number : decimals and integers
+undefined : if im not putting any Value
+null : empty value
+bigint: too big and does not get adjusted in number data type
+string: letters and words in qoutes
+boolean: true/false
+let:displays variables that can be changed
+const: cant change value
+var: old variable thing that can be changed like let.
