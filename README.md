@@ -65,13 +65,15 @@
 * numbers cant be first
 * _, $ can be used anywhere
 
-## JS
+## JS datatypes
 number : decimals and integers
 undefined : if im not putting any Value
 null : empty value
 bigint: too big and does not get adjusted in number data type
 string: letters and words in qoutes
 boolean: true/false
+
+## JS const vs let vs var
 let:displays variables that can be changed
 const: cant change value
 var: old variable thing that can be changed like let.
