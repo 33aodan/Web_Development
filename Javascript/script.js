@@ -32,7 +32,15 @@
 // string: letters and words in qoutes
 // boolean: true/false
 
+//assignment operators
+let age=4;
+// age = 15 + 3;
+// age +=4;
+// age++;
+//age--;
+console.log(age)
 
+//
 
 
 

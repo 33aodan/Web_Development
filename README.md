@@ -64,16 +64,25 @@
 * Uppercase/lowercase
 * numbers cant be first
 * _, $ can be used anywhere
+* case sensitive
 
 ## JS datatypes
-number : decimals and integers
-undefined : if im not putting any Value
-null : empty value
-bigint: too big and does not get adjusted in number data type
-string: letters and words in qoutes
-boolean: true/false
+* number : decimals and integers
+* undefined : if im not putting any Value
+* null : empty value
+* bigint: too big and does not get adjusted in number data type
+* string: letters and words in qoutes
+* boolean: true/false
 
 ## JS const vs let vs var
-let:displays variables that can be changed
-const: cant change value
-var: old variable thing that can be changed like let.
+* let:displays variables that can be changed
+* const: cant change value
+* var: old variable thing that can be changed like let.
+
+## Assignment operators JS
+* all assignment operator expressions execute from right to left
+* unary operator is implemented on a single operand (++ is unary)
+* operand is numbers, strings, and variables that surround the operator
+* binary operators are =,+,-,/,* because they need two operands to execute
+* example assignment operators +=,-=,*=,/=,
+* if dividend is less than divisor than modular(remainder) operator will give dividend as the answer
