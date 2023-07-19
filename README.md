@@ -75,14 +75,20 @@
 * boolean: true/false
 
 ## JS const vs let vs var
-* let:displays variables that can be changed
+* let:displays variables that can be changed. you can't redeclare a value. you should give the value after the declaration
 * const: cant change value
-* var: old variable thing that can be changed like let.
+* var: old variable thing that can be changed like let. you can also redeclare a value. you can give the value before or after the declaration.
 
 ## Assignment operators JS
 * all assignment operator expressions execute from right to left
 * unary operator is implemented on a single operand (++ is unary)
 * operand is numbers, strings, and variables that surround the operator
-* binary operators are =,+,-,/,* because they need two operands to execute
+* binary operators are =,+,-,/,*,** because they need two operands to execute
 * example assignment operators +=,-=,*=,/=,
 * if dividend is less than divisor than modular(remainder) operator will give dividend as the answer
+
+## arithmetic operators
+* =,+,-,/,*,**,++,--
+
+## declare multiple variables in a line 
+* ex.(let a=4,b=5,c=9;)

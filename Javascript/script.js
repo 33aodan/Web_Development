@@ -39,8 +39,11 @@ let age=4;
 // age++;
 //age--;
 console.log(age)
-
+console.log(3**3);
 //
+let x;
+x=5000;
+console.log(x)
 
 
 
