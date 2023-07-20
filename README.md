@@ -86,6 +86,7 @@
 * binary operators are =,+,-,/,*,** because they need two operands to execute
 * example assignment operators +=,-=,*=,/=,
 * if dividend is less than divisor than modular(remainder) operator will give dividend as the answer
+* An operator is capable of manipulating a certain value or operand.
 
 ## arithmetic operators
 * =,+,-,/,*,**,++,--
