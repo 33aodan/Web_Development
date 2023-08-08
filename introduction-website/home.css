@@ -1,0 +1,104 @@
+html
+body {
+    background-image: url(assets/images/background.gif);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: none;
+    padding-right: none;
+   }
+   .linkColor {
+       color: #000000;
+       background-color: #e9e9e9;
+       font-family: 'IBM Plex Mono', monospace;
+       font-weight: 800;
+   }
+   .alltext {
+       font-size: 36px;
+       font-family: 'IBM Plex Mono', monospace;
+       text-align: center;
+   }
+   
+   .linkColor {
+       color: #000000;
+       background-color: #e9e9e9;
+       font-family: 'IBM Plex Mono', 'Arial Narrow', Arial, sans-serif;
+       font-weight: 800;
+   }
+   
+   .linkColor:hover {
+       color: black;
+       background-color: rgba(0, 0, 255, 0.281);
+       font-family: 'IBM Plex Mono', monospace ;
+   }
+   
+   .img1 {
+       width: 200px;
+       padding-bottom: 20px;
+   }
+   
+   .alltext2 {
+       font-size: 18px;
+       font-weight: 600;
+       font-family: 'IBM Plex Mono', monospace;
+       text-align: center;
+   }
+   .alltext3 {
+       font-size: 14px;
+       font-weight: 600;
+       font-family: 'IBM Plex Mono', monospace;
+       text-align: center;
+       
+   }
+   .alltext4 {
+       font-size: 14px;
+       font-family: 'IBM Plex Mono', monospace;
+       text-align: center;
+   }
+   .alltext5 {
+    font-size: 14px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: left;
+}
+   .updateBox {
+       width: 250px;
+       height: 150px;
+       border: 2px solid;
+       overflow: auto;
+       color: #000000;
+       
+   }
+   .divider { 
+       margin: none;
+       width: 100%;
+   }
+   .card-body2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #000000 4px solid;
+   }
+   .aboutMe {
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   }
+   .buttoncolor1{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+    border: transparent;
+   }
+   .buttoncolor2{
+    background-color: #1DB954;
+    color:white;
+    border: transparent;
+   }
