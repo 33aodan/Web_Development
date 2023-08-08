@@ -3,18 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  
+      window.onload = function() {
+        if (isMobile) {
+          document.body.innerHTML = "<h1>Mobile access is restricted for this site.</h1>";
+        }
+      };
+    </script>
     <title>V N</title>
+    <link rel="stylesheet" href="home.css">
     <link rel="shortcut icon" href="assets\images\pngwing.com.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="global.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="text-center">
         <img src="assets\images\cooltext440743761476758.gif" alt="">
     </div>
-    <div class="card">
-        <div class="card-body">
-          This is some text within a card body.
+      <div class="card">
+        <div class="card-body2">
+          <div class="mx-auto">
+            <div class="alltext">
+            <p>[<a href="home.html" class="text-decoration-none linkColor">Home</a>]&nbsp&nbsp[<a href="about-me.html" class="text-decoration-none linkColor">About Me</a>]&nbsp&nbsp[<a href="#" class="text-decoration-none linkColor">Projects</a>]&nbsp&nbsp[<a href="#"  class="text-decoration-none linkColor">EC & Experiences</a>]</p>
+            <img src="assets\images\chauve-souris-pixel-art.gif" class="d-inline img1" alt="">
+            </div>
+              <p class="alltext2">Welcome to my first ever public website, make sure to stay safe and have fun!</p>
+              <img class="divider" src="assets\images\divider.gif" alt="">
+              <div class="row">
+                <div class="col-4">
+                <p class="alltext3">website updates</p>
+              <div class="alltext4 updateBox mx-auto">
+                aug 8, '23<br>
+                added home page
+              </div>
+              </div>
+              <div class="col">
+                <div class="container w-75 border border-dark aboutMe">
+                  <p class="alltext2">About Me</p>
+                  <p class="alltext5">My name is Baodan, I'm a 15 year old vietnamese-american highschool student. I got into web development as well as c++ and python during the summer of 2023. I plan on graduating highschool during the year of 2026 and majoring in computer science. I excel in all academics as well as intermediate knowledge of the US stock market. I enjoy playing videogames such as Valorant, Roblox, CSGO, and many more. To find out more check out my social media below!</p>
+                  <div class="row">
+                    <div class="col-2">
+                      <form  action="https://www.instagram.com/3aodann/?hl=en" target="_blank">
+                         <input type="submit" value="Instagram" class="buttoncolor1"/>
+                       </form>
+                    </div>
+                    <div class="col-2">
+                      <form action="https://open.spotify.com/user/730w83kuem0uwzzfs2l6igz24?si=f5840fdf801a478e" target="_blank">
+                         <input type="submit" value="Spotify" class="buttoncolor2"/>
+                       </form>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            <div class="row gx-5 ">
+              <div class="col">
+                <div class="container border border-dark ">
+                  <p>test</p>
+                </div>
+                <div class="col">
+                  <div class="container border border-dark ">
+                    <p>test</p>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
