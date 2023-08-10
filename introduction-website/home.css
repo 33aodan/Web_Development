@@ -96,9 +96,16 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     color: white;
     border: transparent;
+    padding-bottom: 3%;
    }
    .buttoncolor2{
     background-color: #1DB954;
     color:white;
     border: transparent;
+    padding-bottom: 3%;
+   }
+   .buttoncolor3{
+    background-color: #000000;
+    color:white;
+    text-align: center;
    }
