@@ -36,3 +36,10 @@ p{
     text-align: center;
     margin-top: 15px;
 }
+
+.form-group{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+}
