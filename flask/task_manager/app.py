@@ -3,11 +3,11 @@ from flask_wtf import FlaskForm
 from flask_sqlalchemy import SQLAlchemy
 from wtforms import StringField, PasswordField
 from wtforms.validators import DataRequired, Length, EqualTo
-from flask_login import UserMixin, login_user, logout_user, login_required, LoginManager, before_first_request
+from flask_login import UserMixin, login_user, logout_user, login_required, LoginManager
 import os
 
 app = Flask(__name__)
-app.secret_key = os.urandom(100000)
+app.secret_key = os.urandom(1000)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///user_manager.db'
 db = SQLAlchemy(app)
 
@@ -29,7 +29,7 @@ def load_user(user_id):
     return User.query.get(int(user_id))
 
 class RegistrationForm(FlaskForm):
-    username = StringField('Username', validators=[DataRequired(), Length(max=15)])
+    username = StringField('Username', validators=[DataRequired(), Length(max=80)])
     password = PasswordField('Password', validators=[DataRequired(), Length(min=8)])
     confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
 
@@ -77,6 +77,6 @@ def Logout():
 def create_tables():
     db.create_all()
 
-if __name__ == '__main__':
-    db.create_all()
+if __name__ == "__main__":
+    # db.create_all()
     app.run(debug=True)
