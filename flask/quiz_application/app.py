@@ -6,22 +6,49 @@ from flask import Flask, request, render_template
 #making flask app
 app = Flask(__name__)
 
-quiz_question = "what is the best hero in clash of clans?"
-quiz_option = ["Barbarian King", "Warden", "Royal Champion", "Queen Archer"]
-correct_answer = "Queen Archer"
+questions = [
+    {
+        "question" : "what is the place where ethan lives",
+        "options" : ["london", "new mexico", "houston", "chicago"],
+        "correct_answer" : "new mexico"
+    },
+    {
+        "question" : "what is the place where baodan lives",
+        "options" : ["london", "new mexico", "houston", "chicago"],
+        "correct_answer" : "chicago"
+    },
+    {
+        "question" : "what is the place where queen lives",
+        "options" : ["london", "new mexico", "houston", "chicago"],
+        "correct_answer" : "london"
+    }
+]
+
+score = 0
+current_question = 0
+
 @app.route('/')
 def index():
     return "welcome to the quiz application"
 
 @app.route('/quiz', methods=['GET','POST'])
 def quiz():
+    global score
+    global current_question
     if request.method == "POST":
         user_answer = request.form.get('answer')
+        correct_answer = questions[current_question]["correct_answer"]
         if user_answer == correct_answer:
-            return "Correct! Queen Archer is the best hero in clash of clans."
+            score += 1
+        current_question += 1
+        if current_question < len(questions):
+            return render_template("quiz.html", question = questions[current_question]["question"], options=questions[current_question]["options"])
         else:
-            return "Incorrect! Try again."
-    return render_template('quiz.html', question=quiz_question, options=quiz_option)
+            feedback = f"You scored {score}/{len(questions)}.)"
+            score = 0
+            current_question = 0
+            return render_template("result.html", feedback=feedback)
+    return render_template("quiz.html", question = questions[current_question]["question"], options=questions[current_question]["options"])
 
 if __name__ =="__main__":
     app.run(debug=True)
