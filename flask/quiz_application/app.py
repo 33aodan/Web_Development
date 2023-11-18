@@ -34,6 +34,7 @@ leaderboard_list=[
 @app.route('/leaderboard')
 def leaderboard():
     return render_template('leaderboard.html', leaderboard=leaderboard_list)
+    
 score = 0
 current_question = 0
 
